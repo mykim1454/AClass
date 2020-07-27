@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    //데이터 클래스는 기본적으로 getter, setter함수 생성
+    //데이터 클래스는 기본적으로 getter, setter함수 생성 111
     // java Object클래스에 정의된 함수들을 자동으로 생성한다.
     data class DataUser(var name: String, var age: Int)
     var dataUser = DataUser("hong",21)
@@ -78,3 +78,4 @@ class MainActivity : AppCompatActivity() {
 //        constructor(ctx: Context, attrs: AttributeSet): super (ctx,attrs)
 //
 //    }
+
